@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_2</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: rgb(68, 72, 73);"><u>This is my Task 2 of Javascript</u></h1>
+    <br>
+    <div ><a href="index.html" style="color: black; font-weight: bold;"> |<--Back to Index Page-->|</a></div>
+    <br>
+    <h2 style="text-align: center;">So this is a Javascript function that sorts the given string.</h2>
+    <p style="text-align: center;">Heyy!! Please refresh the page to give the user input again.</p>
+    <p style="text-align: center;">
+        Example string : 'webmaster'
+        <br>
+        Expected Output : 'abeemrstw' 
+    </p>
+    <script>
+        let x = prompt("Enter a String");
+        let y = x.split("").sort().join("");
+        alert("The sorted string of "+x+" is "+y);
+    </script>
+</body>
+</html>
